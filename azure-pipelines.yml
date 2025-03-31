@@ -2,7 +2,7 @@ trigger:
   - main
 
 pool:
-  name: Lab4SelfHost  # Ensure self-hosted agent is configured
+  name: Lab4SelfHost
 
 steps:
 - task: UseDotNet@2
