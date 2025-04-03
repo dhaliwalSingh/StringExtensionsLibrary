@@ -25,5 +25,5 @@ steps:
     command: 'push'
     packagesToPush: '$(Build.ArtifactStagingDirectory)/*.nupkg'
     nuGetFeedType: 'internal'
-    publishVstsFeed: 'hsin1520/DevOpsLab4Q1/Lab4Feed'
+    publishVstsFeed: 'DevOpsLab4Q1/Lab4Feed'
   displayName: 'Push to Azure Artifacts'
